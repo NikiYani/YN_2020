@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+	<html>
+			<head>
+				<link rel="stylesheet" type="text/css" href="Exp_1.css">
+				<title>Янченков Никита ИДМ-20-01</title>
+				<style>
+				html {
+					height: 100%;
+				}
+				header, nav, section, article, aside, footer {
+					display: block;
+				}
+				body {
+					height: 120%;
+				}
+				#wrapper {
+					width: 1000px;
+					margin: 0 auto;
+					min-height: 100%;
+					height: auto !important;
+					height: 100%;
+					
+				}
+				#header {
+					height: 200px;
+					background-color: #C5D0E6;
+					text-align: center;
+					padding: 25px;
+				}
+				#content {
+					padding: 25px;
+					height:800px;
+					text-align: center;
+					background-color: #A6BDD7;
+				}
+				#footer {
+					width: 1000px;
+					margin: -400px auto 0;
+					height: 30px;
+					position: relative;
+					text-align: center;
+					animation-name: footerAnim1;
+					animation-duration: 10s;
+					animation-iteration-count: infinite;
+				}
+
+				@keyframes footerAnim1 {
+					0% { background-color: #708090; color: #FFFFFF; }
+					50% { background-color: #FFFFFF; color: #708090; }
+					100% { background-color: #708090; color: #FFFFFF; }
+				}
+
+				 
+				 
+				@media all and (max-width: 1000px) {		
+					body {
+						background-color: #808080;
+					}
+				}
+
+				@media all and (max-width: 700px) {
+					.loading>div>div {
+						background: repeating-linear-gradient(55deg, #B0C4DE, #000000 25px);
+					}
+					.tabs>label {
+						background: #708090;
+					}
+					footer>div {
+					animation-name: footerAnim2;
+					}
+					.tabs>input:checked + label {
+						border: 5px solid #000;
+					}
+					.tabs>label:hover {
+						background: #C0C0C0;
+					}
+				}
+
+					.impact {
+						font-family: Comic Sans MS, cursive;
+								}
+					.impact_real {
+						font-family: Impact, Charcoal, sans-serif;
+								}
+				</style>
+			</head>
+			
+			<body bgcolor="#9DB1CC" style="background-image: url('wallhaven-615609.png')">
+								
+				<div id="wrapper">
+				
+					<header id="header"> 
+						<p class = "impact">
+							<font size="+1"> Добро пожаловать на страничку отчетов Никиты Янченкова ИДМ-20-01!
+						</p>
+						
+						<p class = "impact">
+							<font size="+1"> Предмет: Интернет-технологии
+						</p>
+						
+						<p class = "impact">
+							<font size="+1"> Команда: TheTeam
+						</p>
+						
+						<p class = "impact">
+							<font size="+1"> Название проекта: Проектирование и разработка сайта компании "Сервисный центр "AppleFix"
+						</p>
+						
+						<p class = "impact">
+							<font size="+1"> Роль в проекте: Дизайнер
+						</p>
+						
+					</header>
+					
+					
+					<div id="content"> 
+						
+						<p class = "impact">
+							<font size="+1"> Первая лабораторная работа
+						</p>
+						
+						<p class = "impact">
+							<font size="+1"> 	Задание: Создать страничку-отчет и выложить её на хостинг GitHub Pages<br>
+												<br>
+												Последовательность действий по созданию сайта и выкладывание его на хостинг: <br>
+												<br>
+												1. Был создан новый репозиторий на сайте github pages<br>
+												2. Была создана новая папка, в которой находятся все необходимые файлы для работы сайта<br>
+												3. Команды для выкладывания сайта на хостинг:<br>
+												4. git init - создает локальный репозиторий в папке<br>
+												5. git add . - добавление всех новых файлов в отслеживание<br>
+												6. git commit -m"commit text" - создания комментария к нашим изменениям<br>
+												7. git remote add origin ссылка_на_репозиторий - связываем наш локальный репозиторий с удаленным<br>
+												8. git push -u origin master - отправляем наши изменения на удаленный репозиторий<br>
+												9. git checkout -b gh-pages - создаем новую ветку gh-pages, которая является хостингом<br>
+												10. git checkout master - возвращаемся на ветку master<br>
+												11. git push origin master:gh-pages - отправляем все файлы из ветки msater в ветку gh-pages, тем самым заливая файлы на хостинг<br>
+						</p>
+						
+						
+						
+						<p class = "impact">
+							<font size="+1"> Вторая лабораторная работа
+						</p>
+						
+						<p class = "impact">
+							<font size="+1"> Помощь в разработке ТЗ.
+						</p>
+						
+						<p class = "impact">
+							<font size="+1"> Третья лабораторная работа
+						</p>
+						
+						<p class = "impact">
+							<font size="+1"> Ссылка на отчет по работе дизайнеров
+						</p>
+												
+					</div>
+				
+				</div>
+				
+				<footer id="footer"> 				
+					<p class = "impact_real" >
+						<font size="+2">	=== by NikiYani === 
+					</p>
+				</footer>
+				
+			</body>
+	</html>
